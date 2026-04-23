@@ -1,2 +1,2 @@
 -- Write your PostgreSQL query statement below
-select distinct author_id as id from views where author_id = viewer_id 
+SELECT DISTINCT author_id AS id FROM Views WHERE viewer_id = author_id ORDER BY author_id ASC;
